@@ -2,7 +2,7 @@
 
 ## Please enable UEFI first
 
-PART=  # /dev/vda for qemu, /dev/sda for VirtualBox
+PART=/dev/nvme0n1
 
 if [ -z "$PART" ]; then
     read -r -p "Please choose the partition name: " PART
